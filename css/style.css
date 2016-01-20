@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Asap Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Asap Bold'), local('Asap-Bold'), 
+
+    
+    url(../fonts/asap-bold_[www.allfont.de].ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'AsapRegular';
+    font-weight: normal;
+    font-style: normal;
+    src:local('AsapRegular'), local('Asap-Regular'),
+    url(../fonts/asap_[www.allfont.de].ttf) format('truetype');
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 999;
+}
+.header_wrapper{
+    width:100%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.left_nav {
+    float: left;
+    width:20%;
+    margin-top: 25px;
+}
+
+ ul li {
+    display: inline;
+}
+
+ ul li a {
+    font-family: Asap Bold;
+    font-size: 18px;
+    color: #999999;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.logo {
+   width: 50%;
+float: left;
+text-align: center;
+margin-top: 25px;
+}
+
+.right_nav {
+    width: 20%;
+    float: right;
+    margin-top: 25px;
+}
+
+
+
+.signup_top_banner {
+    width:100%;
+    height: 725px;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff; 
+    background-image: url("../slices/bg1_repeat.png");
+}
+
+
+.signup_top_content{
+    max-width: 680px;
+    padding-top: 30px;
+    margin:100px auto 0px; 
+    }
+   .signup_description{
+    max-width: 600px;
+    font-size: 36px;
+    font-family: Asap Bold;
+     
+      line-height: normal;
+    margin: 20px 0px auto;
+   } 
+
+.sub_description {
+    font-size: 24px;
+    font-family: AsapRegular;
+   
+}
+.signup_input{
+    width:100%;
+    max-width: 350px;
+    margin:0px auto;
+    text-align: center;
+    padding-top:40px;
+
+
+}
+
+.signup_mail {
+    
+    height: 60px;
+    width: 60%;
+    float:left;
+    font-size: 20px;
+    font-family: AsapRegular;
+    border-radius: 30px 0px 0px 30px;
+    border: 0px none;
+      color: #ffffff; 
+    background-color: #EE8277;
+    text-align: center;
+}
+
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #ffffff !important; 
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #ffffff !important; 
+}
+.signup_button {
+    
+    font-size: 20px;
+    text-align: center;
+    font-family: AsapRegular;
+    color: #ffffff;
+    width: 20%;
+    float:left;
+
+    background-color: rgb(60, 179, 113);
+    border-radius: 0px 30px 30px 0px;
+    height: 60px;
+    border: 0px none;
+}
+.signup_label{
+    font-size: 16px;
+    font-family: AsapRegular;
+    width:100%;
+    float:left;
+    margin-left: -7%;
+   padding-top: 15px;
+}
+.signup_arrow{
+    width:100%;
+    float:left;
+    padding-top:10px;
+}
+.signup_arrow img{
+          cursor: pointer;
+}
+.main_content{
+    width:100%;
+}
+.feed_section{
+    background-color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0px auto;
+}
+.description{
+    margin-top: 80px;
+    font-size: 36px;
+    font-family: Asap Bold;
+      color: #333333;
+}
+.feed_description{
+    font-size: 20px;
+    font-family: AsapRegular;
+    color:#999999;
+    line-height: 1.5em;
+}
+.feed_image{
+    width: 100%;
+    text-align: center;
+}
+.feed_image img{
+border:0px none;
+}
+
+
