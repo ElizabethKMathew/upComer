@@ -2,24 +2,19 @@
     font-family: 'Asap Bold';
     font-style: normal;
     font-weight: 700;
-    src: local('Asap Bold'), local('Asap-Bold'), 
-
-    
-    url(../fonts/asap-bold_[www.allfont.de].ttf) format('truetype');
+    src: local('Asap Bold'), local('Asap-Bold'), url(../fonts/asap-bold_[www.allfont.de].ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'AsapRegular';
     font-weight: normal;
     font-style: normal;
-    src:local('AsapRegular'), local('Asap-Regular'),
-    url(../fonts/asap_[www.allfont.de].ttf) format('truetype');
+    src: local('AsapRegular'), local('Asap-Regular'), url(../fonts/asap_[www.allfont.de].ttf) format('truetype');
 }
 
 .container {
     width: 100%;
     height: 100%;
-
 }
 
 header {
@@ -32,23 +27,24 @@ header {
     background-color: #ffffff;
     z-index: 999;
 }
-.header_wrapper{
-    width:100%;
+
+.header_wrapper {
+    width: 100%;
     max-width: 1000px;
     margin: 0px auto;
 }
 
 .left_nav {
     float: left;
-    width:20%;
+    width: 20%;
     margin-top: 25px;
 }
 
- ul li {
+ul li {
     display: inline;
 }
 
- ul li a {
+ul li a {
     font-family: Asap Bold;
     font-size: 18px;
     color: #999999;
@@ -58,139 +54,247 @@ header {
 }
 
 .logo {
-   width: 50%;
-float: left;
-text-align: center;
-margin-top: 25px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
 }
 
 .right_nav {
     width: 20%;
     float: right;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
-
-
 .signup_top_banner {
-    width:100%;
+    width: 100%;
     height: 725px;
     margin-top: 100px;
     text-align: center;
-    color: #ffffff; 
+    color: #ffffff;
     background-image: url("../slices/bg1_repeat.png");
 }
 
-
-.signup_top_content{
+.signup_top_content {
     max-width: 680px;
     padding-top: 30px;
-    margin:100px auto 0px; 
-    }
-   .signup_description{
+    margin: 100px auto 0px;
+}
+
+.signup_description {
     max-width: 600px;
     font-size: 36px;
     font-family: Asap Bold;
-     
-      line-height: normal;
-    margin: 20px 0px auto;
-   } 
+    line-height: normal;
+    margin: 0 auto;
+}
 
 .sub_description {
+
     font-size: 24px;
     font-family: AsapRegular;
-   
 }
-.signup_input{
-    width:100%;
+
+.signup_input {
+    width: 100%;
     max-width: 350px;
-    margin:0px auto;
+    margin: 0px auto;
     text-align: center;
-    padding-top:40px;
-
-
+    padding-top: 40px;
+    margin: 0px auto 60px;
 }
 
 .signup_mail {
-    
     height: 60px;
     width: 60%;
-    float:left;
+    float: left;
     font-size: 20px;
     font-family: AsapRegular;
     border-radius: 30px 0px 0px 30px;
     border: 0px none;
-      color: #ffffff; 
+    color: #ffffff;
     background-color: #EE8277;
     text-align: center;
 }
 
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ffffff !important;
+}
 
-input:-moz-placeholder { /* Firefox 18- */
-color: #ffffff !important; 
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ffffff !important;
 }
- 
-input::-moz-placeholder {  /* Firefox 19+ */
-color: #ffffff !important; 
-}
+
 .signup_button {
-    
     font-size: 20px;
     text-align: center;
     font-family: AsapRegular;
     color: #ffffff;
     width: 20%;
-    float:left;
-
+    float: left;
     background-color: rgb(60, 179, 113);
     border-radius: 0px 30px 30px 0px;
     height: 60px;
     border: 0px none;
 }
-.signup_label{
+
+.signup_label {
     font-size: 16px;
     font-family: AsapRegular;
-    width:100%;
-    float:left;
+    width: 100%;
+    float: left;
     margin-left: -7%;
-   padding-top: 15px;
+    padding-top: 15px;
 }
-.signup_arrow{
-    width:100%;
-    float:left;
-    padding-top:10px;
+
+.signup_arrow {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
 }
-.signup_arrow img{
-          cursor: pointer;
+
+.signup_arrow img {
+    cursor: pointer;
 }
-.main_content{
-    width:100%;
+
+.main_content {
+    width: 100%;
 }
-.feed_section{
+
+.feed_section {
     background-color: #ffffff;
     margin-top: 100px;
     text-align: center;
     max-width: 500px;
     margin: 0px auto;
 }
-.description{
+
+.description {
     margin-top: 80px;
     font-size: 36px;
     font-family: Asap Bold;
-      color: #333333;
+    color: #333333;
 }
-.feed_description{
+
+.feed_description {
     font-size: 20px;
     font-family: AsapRegular;
-    color:#999999;
+    color: #999999;
     line-height: 1.5em;
 }
-.feed_image{
+
+.feed_image {
+    overflow: auto;
     width: 100%;
     text-align: center;
 }
-.feed_image img{
-border:0px none;
+
+.feed_image img {
+    width: 100%;
+    float: left;
+    border: 0px none;
 }
 
+.illustrations {
+    width: 100%;
+    margin-top: 100px;
+    display: inline-flex;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0px auto;
+    max-width: 1000px;
+}
+
+.illustration1_img {
+    width: 50%;
+    float: left;
+}
+
+.illustrn1_desc {
+    width: 50%;
+    font-size: 36px;
+    font-family: Asap Bold;
+    color: #333333;
+    margin-left: 460px;
+}
+
+.subdesc {
+    font-size: 20px;
+    font-family: AsapRegular;
+    color: #999999;
+    line-height: 1.5em;
+}
+
+.illustration2_img {
+    width: 50%;
+    float: right;
+}
+
+.illustrn2_desc {
+    width: 50%;
+    font-size: 36px;
+    font-family: Asap Bold;
+    color: #333333;
+}
+
+.signup_bottom_banner {
+    width: 100%;
+    height: 400px;
+    margin-top: 60px;
+    text-align: center;
+    color: #ffffff;
+    background-image: url("../slices/bg2.png");
+}
+
+.signup_bot_desc {
+    max-width: 640px;
+    font-size: 24px;
+    font-family: AsapRegular;
+    line-height: normal;
+    margin: 20px 0px auto;
+}
+
+.signup_bot_desc span {
+    font-weight: bold;
+}
+
+.bot_sub_desc {
+    margin-top: 50px;
+}
+
+.bottom_banner {
+    padding-top: 20px;
+    width: 100%;
+    background-color: #333333;
+    height: 280px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.bottom_img {
+    width: 50%;
+    float: left;
+}
+
+.bottom_desc {
+    width: 50%;
+    font-size: 48px;
+    font-family: Asap Bold;
+    color: #ffffff;
+    margin-left: -230px;
+    margin-top: 90px;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 20px;
+}
 
