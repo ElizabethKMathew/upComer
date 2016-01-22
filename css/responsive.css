@@ -1,7 +1,7 @@
 @media screen and (max-width: 920px) {
     .illustrations {
         text-align: center;
-        height: 500px;
+        min-height: 400px;
         display: block;
         position: relative;
     }
@@ -34,6 +34,7 @@
         float: none;
         margin-left: -10px;
     }
+
     .bottom_desc {
         margin-left: -180px;
     }
@@ -53,10 +54,137 @@
     .left_nav li:last-child {
         float: right;
     }
+    .signup_top_content {
+        margin: 50px auto 0;
+    }
+    .signup_description {
+        max-width: 90%;
+        font-size: 34px;
+    }
+    .sub_description {
+        font-size: 20px;
+        max-width: 90%;
+    }
+    .description {
+        font-size: 30px;
+    }
+    .feed_description {
+        font-size: 16px;
+    }
+
+    .illustrn1_desc {
+        font-size: 30px;
+    }
+     .illustration2_img img {
+        height: 280px;
+    }
+    .illustrn2_desc {
+        font-size: 30px;
+    }
+    .subdesc {
+        font-size: 16px;
+    }
+    .signup_bot_desc {
+        font-size: 20px;
+        max-width: 90%;
+    }
+    .bottom_img img{
+        height:200px;
+    }
     .bottom_desc {
-       margin-left: -100px;
-    font-size: 36px;
-    margin-top: 99px;
+        margin-left: -170px;
+    font-size: 38px;
+    margin-top: 70px;
     }
 }
 
+@media screen and (max-width: 680px) {
+    .signup_description {
+        max-width: 70%;
+        font-size: 30px;
+    }
+    .sub_description {
+        font-size: 16px;
+        max-width: 70%;
+    }
+    .signup_label {
+        font-size: 13px;
+    }
+    .signup_input {
+        max-width: 70%;
+    }
+    .illustrations {
+        min-height: 400px;
+    }
+    .illustration1_img img {
+        height: 200px;
+    }
+    .illustration2_img img {
+        height: 250px;
+    }
+    .signup_bot_desc {
+        font-size: 16px;
+        max-width: 80%;
+    }
+    .bottom_img img{
+        height:180px;
+    } 
+    .bottom_desc {
+     margin-left: -160px;
+    font-size: 32px;
+   margin-top: 65px;
+}
+
+}
+@media screen and (max-width: 600px) {
+    .bottom_desc {
+      margin-left: -110px;
+    font-size: 30px;
+    margin-top: 60px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .logo {
+        margin-top: -40px;
+        margin-left: 150px;
+    }
+    .bottom_img img{
+        height:150px;
+    } 
+    
+    .bottom_desc {
+      margin-left: -110px;
+    font-size: 25px;
+    margin-top: 55px;
+    }
+}
+@media screen and (max-width: 441px) {
+    .logo {
+       margin-left: 120px;
+    }
+    .signup_description {
+       
+        font-size: 28px;
+    }
+    .sub_description {
+        font-size: 14px;
+       
+    }
+    .signup_label {
+        font-size: 11px;
+    }
+    .signup_mail {
+        font-size:16px;
+    }
+   .signup_button{
+     font-size:16px;
+   }
+    .bottom_img img{
+        height:130px;
+    } 
+   .bottom_desc {
+      margin-left: -80px;
+    font-size: 22px;
+    margin-top: 45px;
+    }
+}

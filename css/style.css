@@ -11,6 +11,10 @@
     font-style: normal;
     src: local('AsapRegular'), local('Asap-Regular'), url(../fonts/asap_[www.allfont.de].ttf) format('truetype');
 }
+body{
+    margin:0;
+    padding:0;
+}
 
 .container {
     width: 100%;
@@ -67,10 +71,9 @@ ul li a {
 }
 
 .signup_top_banner {
+    height: 770px;
     width: 100%;
-    height: 725px;
     margin-top: 100px;
-    text-align: center;
     color: #ffffff;
     background-image: url("../slices/bg1_repeat.png");
 }
@@ -78,6 +81,8 @@ ul li a {
 .signup_top_content {
     max-width: 680px;
     padding-top: 30px;
+    min-height:600px;
+    text-align: center;
     margin: 100px auto 0px;
 }
 
@@ -150,9 +155,7 @@ input::-moz-placeholder {
 }
 
 .signup_arrow {
-    width: 100%;
-    float: left;
-    padding-top: 20px;
+    text-align: center;
 }
 
 .signup_arrow img {
@@ -243,7 +246,7 @@ input::-moz-placeholder {
 
 .signup_bottom_banner {
     width: 100%;
-    height: 400px;
+   height:400px;
     margin-top: 60px;
     text-align: center;
     color: #ffffff;
@@ -255,7 +258,7 @@ input::-moz-placeholder {
     font-size: 24px;
     font-family: AsapRegular;
     line-height: normal;
-    margin: 20px 0px auto;
+    margin: 20px auto 0;
 }
 
 .signup_bot_desc span {
@@ -270,7 +273,7 @@ input::-moz-placeholder {
     padding-top: 20px;
     width: 100%;
     background-color: #333333;
-    height: 280px;
+        background-size: contain;
     text-align: center;
     display: inline-flex;
 }
