@@ -188,3 +188,45 @@
     margin-top: 45px;
     }
 }
+@media screen and (max-width: 384px) {
+    .logo {
+       margin-left: 100px;
+    }
+    .signup_description {
+        max-width: 70%;
+        font-size: 25px;
+    }
+    .sub_description {
+        font-size: 12px;
+        max-width: 70%;
+    }
+    .signup_label {
+        font-size: 10px;
+    }
+     .description {
+        font-size: 25px;
+    }
+    .feed_description {
+        font-size: 12px;
+    }
+
+    .illustrn1_desc {
+        font-size: 25px;
+    }
+    .illustrn2_desc {
+        font-size: 25px;
+    }
+     .subdesc {
+        font-size: 12px;
+    }
+    .illustration1_img img {
+        height: 150px;
+    }
+    .illustration2_img img {
+        height: 200px;
+    }
+     .signup_bot_desc {
+        font-size: 12px;
+       
+    }
+}
